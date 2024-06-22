@@ -5,7 +5,7 @@ Summary:        Jimmac's spinner theme using the ACPI BGRT graphics as backgroun
 
 License:        GPL-2.0
 URL:            https://github.com/filotimo-linux/plymouth-theme
-Source1:        %{name}-%{version}.tar.gz
+Source0:        %{name}-%{version}.tar.gz
 
 Requires:       rsms-inter-fonts
 #Requires:       filotimo-branding-plymouth
@@ -32,18 +32,3 @@ cp * %{buildroot}%{_datadir}/plymouth/themes/filotimo
 %{_datadir}/plymouth/themes/filotimo/*
 
 %changelog
-* Sat Jun 22 2024 Thomas Duckworth <tduck973564@gmail.com> 0.1-1
-- new package built with tito
-
-* Sat Jun 22 2024 Thomas Duckworth <tduck973564@gmail.com>
-- Fix specfile
-
-* Sat Jun 22 2024 Thomas Duckworth <tduck973564@gmail.com> 0.1-1
-- new package built with tito
-
-* Sat Jun 22 2024 Thomas Duckworth <tduck973564@gmail.com>
-- Add files to specfile (tduck973564@gmail.com)
-
-* Sat Jun 22 2024 Thomas Duckworth <tduck973564@gmail.com> 0.1-1
-- new package built with tito
-
