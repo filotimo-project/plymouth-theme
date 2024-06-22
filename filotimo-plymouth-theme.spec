@@ -8,6 +8,8 @@ URL:            https://github.com/filotimo-linux/plymouth-theme
 Source0:        %{name}-%{version}.tar.gz
 
 Requires:       rsms-inter-fonts
+Requires:       plymouth
+Requires:       plymouth-scripts
 #Requires:       filotimo-branding-plymouth
 
 %description
@@ -33,10 +35,9 @@ cp ./* %{buildroot}%{_datadir}/plymouth/themes/filotimo
 %{_datadir}/plymouth/themes/filotimo/*.png
 %{_datadir}/plymouth/themes/filotimo/filotimo.plymouth
 
+%post
+plymouth-set-default-theme filotimo
+
 %changelog
 * Sat Jun 22 2024 Thomas Duckworth <tduck973564@gmail.com> 0.1-1
 - new package built with tito
-
-* Sat Jun 22 2024 Thomas Duckworth <tduck973564@gmail.com> 0.1-1
-- new package built with tito
-
