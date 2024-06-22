@@ -1,5 +1,5 @@
 Name:           filotimo-plymouth-theme
-Version:        0.0
+Version:        0.1
 Release:        1%{?dist}
 Summary:        Jimmac's spinner theme using the ACPI BGRT graphics as background - customised for Filotimo Linux
 
@@ -33,6 +33,9 @@ cp * %{buildroot}%{_datadir}/plymouth/themes/filotimo
 %{_datadir}/plymouth/themes/filotimo/*
 
 %changelog
+* Sat Jun 22 2024 Thomas Duckworth <tduck973564@gmail.com> 0.1-1
+- new package built with tito
+
 * Sat Jun 22 2024 Thomas Duckworth <tduck973564@gmail.com>
 - Add files to specfile (tduck973564@gmail.com)
 
