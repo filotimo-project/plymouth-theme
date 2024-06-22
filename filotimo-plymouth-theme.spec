@@ -14,6 +14,8 @@ Requires:       rsms-inter-fonts
 Jimmac's spinner theme using the ACPI BGRT graphics as background - customised for Filotimo Linux.
 Uses the Breeze cog as a spinner. Requires filotimo-branding-plymouth for the watermark.
 
+%define debug_package %{nil}
+
 %prep
 %setup -q
 
