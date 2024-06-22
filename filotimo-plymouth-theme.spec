@@ -23,7 +23,7 @@ Uses the Breeze cog as a spinner. Requires filotimo-branding-plymouth for the wa
 cd src
 install -pm 0644 %{SOURCE0} LICENSE
 mkdir -p %{buildroot}%{_datadir}/plymouth/themes/filotimo
-cp * %{buildroot}%{_datadir}/plymouth/themes/filotimo
+cp ./* %{buildroot}%{_datadir}/plymouth/themes/filotimo
 
 
 %files
