@@ -7,14 +7,16 @@ License:        GPL-2.0
 URL:            https://github.com/filotimo-linux/plymouth-theme
 Source0:        %{name}-%{version}.tar.gz
 
+BuildArch:      noarch
+
 Requires:       rsms-inter-fonts
 Requires:       plymouth
 Requires:       plymouth-scripts
-#Requires:       filotimo-branding-plymouth
+Requires:       filotimo-branding
 
 %description
 Jimmac's spinner theme using the ACPI BGRT graphics as background - customised for Filotimo Linux.
-Uses the Breeze cog as a spinner. Requires filotimo-branding-plymouth for the watermark.
+Uses the Breeze cog as a spinner. Requires filotimo-branding for the watermark.
 
 %define debug_package %{nil}
 
