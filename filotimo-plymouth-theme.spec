@@ -20,16 +20,16 @@ Uses the Breeze cog as a spinner. Requires filotimo-branding-plymouth for the wa
 %build
 
 %install
-cd src
 install -pm 0644 %{SOURCE0} LICENSE
+cd src
 mkdir -p %{buildroot}%{_datadir}/plymouth/themes/filotimo
 cp ./* %{buildroot}%{_datadir}/plymouth/themes/filotimo
-
 
 %files
 %license LICENSE
 %dir %{_datadir}/plymouth/themes/filotimo
-%{_datadir}/plymouth/themes/filotimo/*
+%{_datadir}/plymouth/themes/filotimo/*.png
+%{_datadir}/plymouth/themes/filotimo/filotimo.plymouth
 
 %changelog
 * Sat Jun 22 2024 Thomas Duckworth <tduck973564@gmail.com> 0.1-1
