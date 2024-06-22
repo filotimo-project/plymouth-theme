@@ -32,5 +32,3 @@ cp ./* %{buildroot}%{_datadir}/plymouth/themes/filotimo
 %{_datadir}/plymouth/themes/filotimo/filotimo.plymouth
 
 %changelog
-* Sat Jun 22 2024 Thomas Duckworth <tduck973564@gmail.com> 0.1-1
-- new package built with tito
