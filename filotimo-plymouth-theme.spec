@@ -5,7 +5,7 @@ Summary:        Jimmac's spinner theme using the ACPI BGRT graphics as backgroun
 
 License:        GPL-2.0
 URL:            https://github.com/filotimo-project/plymouth-theme
-Source0:        https://github.com/filotimo-project/plymouth-theme/archive/refs/tags/%{name}-%{version}-1.tar.gz
+Source0:        %{name}-%{version}.tar.gz
 
 BuildArch:      noarch
 
